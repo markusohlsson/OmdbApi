@@ -1,0 +1,32 @@
+footer {
+  a {
+    color: inherit;
+    text-decoration: inherit;
+  }
+  height: 140px;
+  background-color: #222222;
+  border-top: 1px solid black;
+  width: 100%;
+  color: white;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+  flex-wrap: wrap;
+  .leftFooter {
+    text-align: center;
+
+    .omdbReadMore:hover {
+      transform: scale(1.1);
+    }
+  }
+  .rightFooter {
+    font-size: 32px;
+  }
+  .copyright {
+    width: 100%;
+    text-align: center;
+  }
+}

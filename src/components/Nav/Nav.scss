@@ -1,0 +1,81 @@
+body {
+  position: initial;
+}
+* {
+  scroll-behavior: smooth !important;
+}
+
+nav {
+  color: white;
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  //   background-color: #222222;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  font-size: 32px;
+  //   box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
+  .fa-solid {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  a {
+    color: inherit;
+    text-decoration: inherit;
+  }
+  .navTitle {
+    padding-right: 2.5%;
+    display: flex;
+    gap: 10px;
+  }
+  .navLogoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    img {
+      height: 100px;
+      object-fit: contain;
+    }
+  }
+  .navOptions {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    .navOption {
+      .underline {
+        height: 2px;
+        width: 100%;
+        background-color: black;
+        border-radius: 25px;
+      }
+    }
+  }
+}
+.custom-shape-divider-top-1679680535 {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1679680535 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 158px;
+}
+
+.custom-shape-divider-top-1679680535 .shape-fill {
+  fill: #222222;
+}

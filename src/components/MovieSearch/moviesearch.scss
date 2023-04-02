@@ -1,0 +1,196 @@
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../../asset/pexels-cottonbro-studio-8263327.jpg");
+  background-size: cover;
+  font-family: "Rubik", sans-serif;
+  text-transform: uppercase;
+  .heroContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    .heroText {
+      margin: 5px;
+      margin-right: 225px;
+      display: flex;
+      justify-content: center;
+      height: auto;
+      width: 100%;
+      color: white;
+      font-size: 48px;
+      font-weight: 900;
+    }
+    #searchForm {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      gap: 10px;
+    }
+    #searchText {
+      text-align: center;
+      text-transform: uppercase;
+      font-family: "Rubik", sans-serif;
+      width: 500px;
+      height: 50px;
+      font-size: 40px;
+      background-color: rgba(23, 23, 23, 0.5);
+      color: white;
+      border-radius: 25px;
+      padding: 10px;
+    }
+    .searchButton {
+      width: 200px;
+      border-radius: 25px;
+      background-color: transparent;
+      color: white;
+      font-size: 40px;
+      font-family: "Rubik", sans-serif;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.ResponseContainer {
+  background-color: #393939;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 15px;
+  color: white;
+  padding-bottom: 50px;
+  font-family: "Rubik", sans-serif;
+  text-transform: uppercase;
+  .responseContainerTitle {
+    font-size: 32px;
+    width: 100%;
+    text-align: center;
+  }
+  .enlarged {
+    width: 100%;
+  }
+  .responseMovie {
+    background-color: #222222;
+    height: 600px;
+    padding: 2%;
+    display: flex;
+    width: 15%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 2rem;
+    box-shadow: 0px 15px 20px -5px rgba(0, 0, 0, 0.5);
+    .reponseTitle {
+    }
+    .responseImageContainer {
+      width: 100%;
+      height: 100%;
+      .responseImage {
+        width: 290px;
+        height: 430px;
+        object-fit: contain;
+        border: 4px solid black;
+      }
+    }
+    .reponseYear {
+    }
+    .responseImdbId {
+    }
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .responseImdbIdLink:hover {
+      cursor: pointer;
+      transform: scale(1.05);
+    }
+    .responseImdbIdLink {
+      width: 100%;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      background-color: transparent;
+      color: white;
+      font-family: "Rubik", sans-serif;
+      font-weight: 700;
+      text-transform: uppercase;
+      display: flex;
+      justify-content: center;
+      .showOnIMDB {
+        background-color: #393939;
+        width: 45%;
+        border: 1px solid white;
+        border-radius: 25px;
+        padding: 15px;
+      }
+    }
+  }
+  .pagination {
+    text-align: center;
+    width: 100%;
+    padding-top: 15px;
+    button {
+      text-transform: uppercase;
+      font-size: 20px;
+      color: white;
+      background-color: #222222;
+      padding: 15px;
+      border: 1px solid white;
+      border-radius: 5px;
+    }
+    button:disabled {
+      background-color: #434343;
+    }
+    button:hover {
+      cursor: pointer;
+    }
+  }
+  .totalResults {
+    width: 100%;
+    text-align: center;
+  }
+}
+.responseMovie:hover {
+  transform: scale(1.01);
+}
+
+.noresult {
+  text-align: center;
+  font-size: 32px;
+}
+
+.helptext {
+  margin-right: 225px;
+  color: white;
+}
+
+.custom-shape-divider-bottom-1679680857 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1679680857 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 158px;
+}
+
+.custom-shape-divider-bottom-1679680857 .shape-fill {
+  fill: #393939;
+}
+
+.filterContainer {
+  width: 100%;
+  text-align: center;
+}
